@@ -11,7 +11,6 @@ const Dragon: React.FC = (props: DragonProps): JSX.Element => {
     return (
         <DragonCard color={dragon.scaleColor}>
             <p>{dragon.name}</p>
-            <p>{dragon.scaleColor}</p>
             <p>{dragon.size}</p>
             <p>{dragon.title}</p>
             <p>{dragon.element}</p>
