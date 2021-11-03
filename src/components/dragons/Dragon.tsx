@@ -10,7 +10,7 @@ const Dragon: React.FC<DragonProps> = (props: DragonProps): JSX.Element => {
     const { dragon } = props;
     return (
         <DragonCard color={dragon.scaleColor}>
-            <p>{dragon.name}</p>
+            <h3>{dragon.name}</h3>
             <p>{dragon.size}</p>
             <p>{dragon.title}</p>
             <p>{dragon.element}</p>
