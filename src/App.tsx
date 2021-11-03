@@ -1,11 +1,11 @@
 import React from "react";
 
-function App() {
+const App: React.FC = (): JSX.Element => {
     return (
-        <div className="App">
-            
+        <div>
+            <p>hi</p>
         </div>
     );
-}
+};
 
 export default App;
