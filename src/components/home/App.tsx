@@ -1,9 +1,10 @@
 import React from "react";
+import Dragons from "../dragons/Dragons";
 
 const App: React.FC = (): JSX.Element => {
     return (
         <div>
-            <p>hi</p>
+            <Dragons />
         </div>
     );
 };
