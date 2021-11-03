@@ -6,7 +6,7 @@ interface DragonProps {
     dragon: DragonInfo;
 }
 
-const Dragon: React.FC = (props: DragonProps): JSX.Element => {
+const Dragon: React.FC<DragonProps> = (props: DragonProps): JSX.Element => {
     const { dragon } = props;
     return (
         <DragonCard color={dragon.scaleColor}>

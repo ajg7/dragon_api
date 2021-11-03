@@ -1,9 +1,9 @@
 export interface DragonInfo {
-    name: string,
-    scaleColor: string,
-    size: number,
-    title: string,
-    element: string,
+    name: string;
+    scaleColor: string;
+    size: number;
+    title: string;
+    element: string;
 }
 
 export const dragons: DragonInfo[] = [
@@ -42,4 +42,4 @@ export const dragons: DragonInfo[] = [
         title: "The Deathlady",
         element: "shadow",
     },
-]
+];

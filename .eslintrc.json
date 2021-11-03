@@ -9,8 +9,6 @@
         "plugin:@typescript-eslint/recommended",
         "prettier",
         "prettier/prettier",
-        "prettier/react",
-        "prettier/@typescript-eslint",
         "plugin:prettier/recommended"
     ],
     "parser": "@typescript-eslint/parser",
@@ -38,7 +36,7 @@
         ],
         "no-shadow": "off",
         "@typescript-eslint/no-shadow": ["error"],
-        "allowExpressions": true,
+        "allowExpressions": 0,
         "max-len": ["warn", { "code": 80 }],
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",
