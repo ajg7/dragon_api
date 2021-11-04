@@ -1,17 +1,4 @@
-import axios from "axios";
-
-export interface DragonInfo {
-    name: string;
-    scaleColor: string;
-    size: number;
-    title: string;
-    element: string;
-}
-
-export const getDragons = async (): Promise<DragonInfo[]> =>
-    axios.get("http://localhost:5000/");
-
-export const dragons: DragonInfo[] = [
+const dragons = [
     {
         name: "Galthazar",
         scaleColor: "cyan",
@@ -48,3 +35,5 @@ export const dragons: DragonInfo[] = [
         element: "shadow",
     },
 ];
+
+module.exports = dragons;
